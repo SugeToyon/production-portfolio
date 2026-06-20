@@ -2,7 +2,7 @@
 
 Welcome to the central repository of my production-ready developer showcase. This project is engineered to demonstrate not just frontend layout capabilities, but scalable system thinking, backend architectural paradigms, and automated workflow strategies.
 
-✨ **[Live System Architecture] 👉 [Click Here to View the Live Demo]([DEMO_LINKINIZ])**
+✨ **[Live System Architecture] 👉 [Click Here to View the Live Demo](https://sugetoyon.github.io/production-portfolio/)**
 
 ---
 
