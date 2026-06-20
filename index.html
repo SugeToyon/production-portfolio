@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugetoyon | Dev Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="section-1">
+        <header class="navbar">
+            <div class="logo">
+                <svg class="code-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 8L3 12L7 16M17 8L21 12L17 16M14 4L10 20" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>Sugetoyon</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active">home ▾</a>
+                <a href="#">repositories ▾</a>
+                <a href="#">projects</a>
+                <a href="#">about</a>
+                <a href="#">contact</a>
+                <a href="#" class="btn-template">view github</a>
+                <a href="#" class="btn-cart">cv</a>
+            </nav>
+        </header>
+
+        <div class="hero-container">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    Hey, I'm Sugetoyon, your software & <span class="italic-text">full-stack</span> developer.
+                </h1>
+                <p class="hero-description">
+                    Building robust applications, managing clean repositories, and turning complex logic into seamless digital experiences.
+                </p>
+                <div class="cta-group">
+                    <a href="#" class="btn-cta">get in touch</a>
+                    <div class="social-proof">
+                        <div class="avatar-group">
+                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=60" alt="Dev 1">
+                            <img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=100&auto=format&fit=crop&q=60" alt="Dev 2">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&auto=format&fit=crop&q=60" alt="Dev 3">
+                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&auto=format&fit=crop&q=60" alt="Dev 4">
+                        </div>
+                        <span class="proof-text">trusted by tech teams</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="image-wrapper">
+                    <div class="shape shape-bg-1"></div>
+                    <div class="shape shape-bg-2"></div>
+                    
+                    <div class="floating-asterisk top-right">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 18L22 12L16 6M8 6L2 12L8 18" stroke="#a855f7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="floating-asterisk bottom-left">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="main-image-container">
+                        <img src="public/me.png" alt="Sugetoyon" class="profile-img" onerror="this.style.display='none'; document.getElementById('placeholder-box').style.display='flex';">
+                        
+                        <div id="placeholder-box" class="img-placeholder" style="display:none;">
+                            <span>me.png bekleniyor<br><small>/public klasörüne ekle</small></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-2">
+        <div class="section-header">
+            <span class="section-subtitle">EXPERTISE</span>
+            <h2 class="section-title">I can help you with a number of things</h2>
+            <p class="section-desc">Delivering high-quality code and scalable architectures for your digital products.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Backend Development</h3>
+                <p>Designing secure, fast, and scalable server-side applications and APIs tailored to your needs.</p>
+                <div class="card-tags">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">Databases</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>Frontend Engineering</h3>
+                <p>Creating responsive, accessible, and highly interactive user interfaces with modern web tech.</p>
+                <div class="card-tags">
+                    <span class="tag">React</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Tailwind</span>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="card-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#818cf8" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3>DevOps & Cloud</h3>
+                <p>Automating deployment pipelines and setting up robust cloud infrastructure for operations.</p>
+                <div class="card-tags">
+                    <span class="tag">Docker</span>
+                    <span class="tag">AWS</span>
+                    <span class="tag">CI/CD</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-footer">
+            <a href="#" class="btn-outline">check my github</a>
+        </div>
+    </section>
+    <section id="section-3">
+        <div class="about-container">
+            
+            <div class="about-left">
+                <div class="about-image-wrapper">
+                    <div class="about-floating-shape">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#6366f1" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="about-image-container">
+                        <img src="public/me.png" alt="Sugetoyon" class="about-profile-img" onerror="this.style.display='none'; document.getElementById('about-placeholder-box').style.display='flex';">
+                        
+                        <div id="about-placeholder-box" class="about-img-placeholder" style="display:none;">
+                            <span>me.png</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-right">
+                <span class="about-subtitle">ABOUT ME</span>
+                <h2 class="about-title">With experience in corporate and freelancing I have a full understanding of tech.</h2>
+                <p class="about-description">
+                    Fascinated by complex software architectures and clean code paradigms. I build high-performance applications, manage seamless deployment pipelines, and bridge the gap between heavy backend logic and pixel-perfect frontends.
+                </p>
+                
+                <div class="about-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                        </div>
+                        <span class="feature-text">Trusted by engineering teams</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <span class="feature-text">Production-ready clean code</span>
+                    </div>
+                    
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                        </div>
+                        <span class="feature-text">Made by professional standards</span>
+                    </div>
+                </div>
+
+                <a href="#" class="btn-about-cta">get in touch</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="section-4">
+        <div class="metrics-floating-shape">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#4f46e5" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+        </div>
+
+        <div class="metrics-container">
+            <div class="metrics-header">
+                <div class="metrics-title-group">
+                    <span class="metrics-subtitle">PERFORMANCE METRICS</span>
+                    <h2 class="metrics-title">System efficiency growth with my architecture</h2>
+                </div>
+                <a href="#" class="btn-metrics-cta">get in touch</a>
+            </div>
+
+            <div class="chart-card">
+                
+                <div class="bar-column">
+                    <div class="bar light-bar" style="height: 35%;">
+                        <span class="bar-percent">31%</span>
+                        <span class="bar-label">March</span>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="bar light-bar" style="height: 48%;">
+                        <span class="bar-percent">38%</span>
+                        <span class="bar-label">April</span>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="bar light-bar" style="height: 65%;">
+                        <span class="bar-percent">46%</span>
+                        <span class="bar-label">May</span>
+                    </div>
+                </div>
+
+                <div class="bar-column">
+                    <div class="bar solid-bar" style="height: 95%;">
+                        <span class="bar-percent highlight-text">62%</span>
+                        <span class="bar-label highlight-text">June</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="section-5">
+        <div class="quote-container">
+            <div class="quote-icon">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z" />
+                </svg>
+            </div>
+
+            <blockquote class="quote-text">
+                "We don't just write lines of code—we engineer scalable architectures that drive performance, inspire innovation, and build a robust foundation for future tech."
+            </blockquote>
+
+            <div class="quote-signature">
+                Sugetoyon
+            </div>
+        </div>
+    </section>
+    <section id="section-6">
+        
+        <div class="process-decor top-right">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#4f46e5" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+        </div>
+        
+        <div class="process-decor bottom-left">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2V22M2 12H22M4.93 4.93L19.07 19.07M4.93 19.07L19.07 4.93" stroke="#6366f1" stroke-width="4" stroke-linecap="round"/>
+            </svg>
+        </div>
+
+        <div class="process-container">
+            <div class="process-header">
+                <span class="process-subtitle">WORKFLOW</span>
+                <h2 class="process-title">My approach to building robust software</h2>
+                <p class="process-desc">
+                    A systematic and efficient methodology ensuring scalability, high performance, and clean code architecture.
+                </p>
+            </div>
+
+            <div class="process-steps">
+                
+                <div class="step-item">
+                    <div class="step-circle">1</div>
+                    <div class="step-content">
+                        <h3>Architecture & Planning</h3>
+                        <p>We analyze requirements, define optimal database schemas, and select the right tech stack to build a solid foundation before writing any code.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-circle">2</div>
+                    <div class="step-content">
+                        <h3>Development & Testing</h3>
+                        <p>Writing clean, modular, and maintainable code. I implement test-driven development (TDD) to ensure bug-free and efficient features.</p>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-circle">3</div>
+                    <div class="step-content">
+                        <h3>Deployment & CI/CD</h3>
+                        <p>Automating delivery pipelines, setting up robust GitHub workflows, and deploying to cloud infrastructure with continuous monitoring.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="section-7">
+        <div class="testi-container">
+            
+            <div class="testi-header">
+                <div class="testi-title-group">
+                    <span class="testi-subtitle">TESTIMONIALS</span>
+                    <h2 class="testi-title">Don’t just take my word for it</h2>
+                </div>
+                <div class="testi-nav">
+                    <button id="prev-btn" class="nav-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                    </button>
+                    <button id="next-btn" class="nav-btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="testi-slider">
+                
+                <div class="testi-slide active">
+                    <div class="testi-card">
+                        <div class="testi-stat">
+                            <span class="stat-big">2x</span>
+                            <span class="stat-text">faster API response</span>
+                        </div>
+                        <p class="testi-quote">"Working with Sugetoyon was a game-changer for our platform. His architectural decisions and clean code approach helped us scale seamlessly. The system performance skyrocketed, and we couldn't be happier!"</p>
+                        <div class="testi-author">
+                            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=60" alt="Sarah J.">
+                            <div class="author-info">
+                                <h4>Sarah Jenkins</h4>
+                                <span>CTO at TechFlow</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-image">
+                        <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80" alt="Server Room">
+                    </div>
+                </div>
+
+                <div class="testi-slide">
+                    <div class="testi-card">
+                        <div class="testi-stat">
+                            <span class="stat-big">Zero</span>
+                            <span class="stat-text">downtime during migration</span>
+                        </div>
+                        <p class="testi-quote">"I've worked with many developers, but the DevOps pipeline and deployment strategy built here were flawless. We migrated our entire legacy database to the cloud without a single minute of downtime."</p>
+                        <div class="testi-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=60" alt="Michael C.">
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Product Lead</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80" alt="Coding Workspace">
+                    </div>
+                </div>
+
+                <div class="testi-slide">
+                    <div class="testi-card">
+                        <div class="testi-stat">
+                            <span class="stat-big">50%</span>
+                            <span class="stat-text">reduction in server costs</span>
+                        </div>
+                        <p class="testi-quote">"By refactoring our core microservices and optimizing our cloud infrastructure, Sugetoyon didn't just improve our app's speed—he literally cut our AWS billing in half. A true engineering partner."</p>
+                        <div class="testi-author">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&auto=format&fit=crop&q=60" alt="Elena R.">
+                            <div class="author-info">
+                                <h4>Elena Rodriguez</h4>
+                                <span>Startup Founder</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testi-image">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80" alt="Circuit Board">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="section-8">
+        <div class="projects-container">
+            
+            <div class="projects-header">
+                <span class="projects-subtitle">CASE STUDIES</span>
+                <h2 class="projects-title">I’m as good as my last project</h2>
+                <p class="projects-desc">
+                    A curated selection of scalable applications, system architectures, and open-source tools built with modern tech stacks.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&auto=format&fit=crop&q=80" alt="Cloud Microservices">
+                        <span class="project-tag tag-backend">Backend</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cloud-Native Microservices Core</h3>
+                        <p>A high-throughput financial backend architecture handling 10k+ concurrent requests securely with Go, gRPC, and Redis integration.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80" alt="Analytics Platform">
+                        <span class="project-tag tag-fullstack">Full-Stack</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Real-Time DevOps Analytics</h3>
+                        <p>A responsive telemetry dashboard tracking server health, active pipelines, and cloud costs. Built using React, Node.js, and PostgreSQL.</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1618401471353-b98aedd07871?w=600&auto=format&fit=crop&q=80" alt="CI/CD Pipelines">
+                        <span class="project-tag tag-devops">DevOps</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Automated Infrastructure Suite</h3>
+                        <p>Production-ready Terraform templates and robust GitHub Actions workflows designed for zero-downtime blue-green AWS deployments.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer id="section-9">
+        <div class="footer-container">
+            
+            <div class="footer-top">
+                
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-dot"></span> Sugetoyon
+                    </div>
+                    <p class="footer-bio">
+                        Building scalable backend architectures, optimizing cloud infrastructure, and crafting high-performance full-stack systems. Let's build something robust together.
+                    </p>
+                    <a href="https://github.com/Sugetoyon" target="_blank" class="footer-btn">
+                        <span>Check GitHub Profile</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="btn-icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                </div>
+
+                <div class="footer-links-grid">
+                    
+                    <div class="footer-column">
+                        <h4>Navigation</h4>
+                        <ul>
+                            <li><a href="#section-1">Home</a></li>
+                            <li><a href="#section-3">About Me</a></li>
+                            <li><a href="#section-6">Workflow</a></li>
+                            <li><a href="#section-8">Case Studies</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Expertise</h4>
+                        <ul>
+                            <li><a href="#">Backend Architecture</a></li>
+                            <li><a href="#">Cloud & DevOps</a></li>
+                            <li><a href="#">Database Design</a></li>
+                            <li><a href="#">API Integrations</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-column">
+                        <h4>Socials</h4>
+                        <ul>
+                            <li><a href="https://github.com/Sugetoyon" target="_blank">GitHub</a></li>
+                            <li><a href="#" target="_blank">LinkedIn</a></li>
+                            <li><a href="#" target="_blank">Twitter / X</a></li>
+                            <li><a href="#" target="_blank">LeetCode</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2026 Sugetoyon. All rights reserved. Built with clean code & passion.</p>
+                </div>
+                <div class="footer-giant-text">
+                    SUGETOYON
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
